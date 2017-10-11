@@ -28,4 +28,6 @@ public class Threads2 implements Runnable {
 
 【Answer】 DE  
 **Explanation/Reference:**  
+In case of threads the behavior can not be predicted(as it depends on JVM's policy to pick items from runnable pool), so the order you see might be different in different runs. System.out.println("End of method.") can run before the t.start() or after the t.start().  
+
 
