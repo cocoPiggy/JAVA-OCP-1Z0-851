@@ -85,7 +85,7 @@ F. This code does NOT compileunless "obj.wait()" is replaced with "((Thread)obj)
 
 【Answer】 B  
 **Explanation/Reference:**  
-wait() or notify() calls have to be invoked on object once you get monitor on that object.Otherwise, will throw the IllegalMonitorStateException. The solution is change ynchronized (Thread.currentThread()) to synchronized (obj).  
+wait() or notify() calls have to be invoked on object once you get monitor on that object.Otherwise, will throw the IllegalMonitorStateException. The solution is to change synchronized (Thread.currentThread()) to synchronized (obj).  
 
 
 Reference:Java: Concurrency and Practice.
