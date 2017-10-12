@@ -62,13 +62,13 @@ F. Thread.yield() just give up the control to allow a thread to switch. There is
 ## Question 3
 Given:
 ```java
-        void waitForSignal(){
-              Object obj = new Object();
-              synchronized (Thread.currentThread()) {
-                     obj.wait();
-                     obj.notify();
-              }
-       }
+void waitForSignal(){
+     Object obj = new Object();
+     synchronized (Thread.currentThread()) {
+            obj.wait();
+            obj.notify();
+         }
+     }
 ```
 Which statement is true?  
 A. This code can throw an InterruptedException.  
