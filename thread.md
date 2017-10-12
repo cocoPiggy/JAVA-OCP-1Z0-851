@@ -2,11 +2,11 @@
 Given:  
 ```Java
 public class Threads2 implements Runnable {
- public void run() {
+  public void run() {
      System.out.println("run.");
      throw new RuntimeException("Problem");
-   }
- public static void main(String[]args) {
+  }
+  public static void main(String[]args) {
      Thread t = new Thread(newThreads2());
      t.start();
      System.out.println("End ofmethod.");
