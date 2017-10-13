@@ -90,4 +90,64 @@ wait() or notify() calls have to be invoked on object once you get monitor on th
 
 Reference:Java: Concurrency and Practice.
 
+## Question 4
+Given:  
+```java
+class PingPong2 {  
+  synchronized void hit(long n) {
+  for(int i= 1; i < 3; i++)
+  System.out.print(n+ "-" + i + " ");
+  }
+}
+
+public class Tester implements Runnable {
+staticPingPong2 pp2 = new PingPong2();
+publicstatic void main(String[] args) {
+  newThread(new Tester()).start();
+  newThread(new Tester()).start();
+}
+
+publicvoid run() { pp2.hit(Thread.currentThread().getId()); }
+}
+```
+Which statement is true?  
+A. The output could be 5-1 6-1 6-2 5-2  
+
+B. The output could be 6-1 6-2 5-1 5-2  
+
+C. The output could be 6-1 5-2 6-2 5-1  
+
+D. The output could be 6-1 6-2 5-1 7-1  
+
+【Answer】 B  
+**Explanation/Reference:**  
+When a thread invokes a synchronized method, it automatically acquires the lock for that object and releases it when the thread completes its task. All other threads that invoke synchronized methods for the same object block(suspend execution) until the thread is done with the object.  
+
+## Question 5
+```java
+public class Threads4{
+  public static void main(String[] args) {
+    new Threads4().go();
+  }
+  public void go() {
+    Runnable r = new Runnable() {
+      public void run() {System.out.print("foo");
+    }
+  };
+  Thread t = new Thread(r);
+  t.start();
+  t.start();
+  }
+}
+```
+ What is the result?  
+ A. Compilation fails.  
+ B. An exception is thrown at runtime.  
+ C. The code executes normally and prints "foo".  
+ D. The code executes normally, but nothing is printed.  
+【Answer】 B  
+
+**Explanation/Reference:**  
+A java thread cannot be run twice. Once it has been started and finished its work, it cannot be started again. It will throw 'Exception in thread "main" java.lang.IllegalThreadStateException'.  
+
 
