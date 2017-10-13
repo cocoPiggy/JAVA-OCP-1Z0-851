@@ -1,4 +1,4 @@
-##Question 6 
+##Question 6##
 Given:  
 ```java
 public abstract class Shape {
@@ -36,7 +36,7 @@ public abstract class Shape {
     }  
 
 【Answer】 BE  
-**Explanation/Reference**
+**Explanation/Reference**  
 A. Shape is a abstract class which cannot be implemented.
 B. Circle（extends） Shape，但没有实现Shape的抽象方法draw(),因此仍然是个抽象类  
 C. Circle定义为继承了抽象类Shape的普通类，却没有实现Shape的抽象方法draw()，不符合普通类的语法规定  
