@@ -36,7 +36,7 @@ public abstract class Shape {
     }  
 
 【Answer】 BE  
-**Explanation/Reference**  
+**Explanation/Reference:**  
 A. Shape is a class which cannot be implemented.  
 B. Circle（extends）Shape but does not implement the abstract method. So cirble must be a abstract class.   
 C. Circle does not implement the abstract method.   
