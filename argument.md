@@ -18,6 +18,6 @@ public class Barn {
  D. Compilation fails.  
  E. An exception is thrown at runtime.  
 【Answer】 D  
-**Explanation/Reference**  
+**Explanation/Reference:**  
 Variable argument (varargs) must be the last argument.  
 
