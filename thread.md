@@ -148,6 +148,6 @@ public class Threads4{
 【Answer】 B  
 
 **Explanation/Reference:**  
-A java thread cannot be run twice. Once it has been started and finished its work, it cannot be started again. It will throw 'Exception in thread "main" java.lang.IllegalThreadStateException'.  
+A java thread cannot run twice. Once it has been started and finished its work, it cannot be started again. It will throw 'Exception in thread "main" java.lang.IllegalThreadStateException'.  
 
 
