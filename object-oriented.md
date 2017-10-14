@@ -37,11 +37,13 @@ public abstract class Shape {
 
 【Answer】 BE  
 **Explanation/Reference**  
-A. Shape is a abstract class which cannot be implemented.
-B. Circle（extends） Shape，但没有实现Shape的抽象方法draw(),因此仍然是个抽象类  
-C. Circle定义为继承了抽象类Shape的普通类，却没有实现Shape的抽象方法draw()，不符合普通类的语法规定  
-D. Shape是类，只能 extends不能implements  
-E. Circle定义为继承了抽象类Shape的普通类，并且实现Shape的抽象方法draw()，符合普通类的语法规定  
-F. Shape是类，只能extends不能implements  
+A. Shape is a class which cannot be implemented.  
+B. Circle（extends）Shape but does not implement the abstract method. So cirble must be a abstract class.   
+C. Circle does not implement the abstract method.   
+D. Shape is a class which cannot be implemented. 
+E. Circle（extends）Shape and implement the abstract method.  
+F. Shape is a class which cannot be implemented.  
+
+
 
 
