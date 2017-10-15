@@ -51,5 +51,35 @@ C. granite granite
 D. atom granite granite  
 E. An exception is thrown at runtime.  
 F. atom granite atom granite  
-**Reference/Explanation**  
+【Answer】 F  
+**Reference/Explanation**  
 Java constructor is invoked at the time of object creation.  
+
+## Question 17
+Given:
+```java
+01. class Super {
+02.   private int a;
+03.   protected Super(int a) { this.a = a; }
+04. }
+
+11. class Sub extends Super {
+12.   public Sub(int a) { super(a); }
+13.   public Sub() { this.a = 5; }
+14. }
+```
+Which two, independently, will allow Sub to compile? (Choose two.)  
+A. Change line 2 to: public int a;  
+B. Change line 2 to: protected int a;  
+C. Change line 13 to: public Sub() { this(5); }  
+D. Change line 13 to: public Sub() { super(5); }    
+E. Change line 13 to: public Sub() { super(a); }  
+【Answer】 CD  
+**Reference/Explanation**  
+Sub cannot use private a in super.  
+
+## Question 
+
+**Reference/Explanation**  
+
+
