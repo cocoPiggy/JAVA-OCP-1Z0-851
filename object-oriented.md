@@ -82,5 +82,30 @@ D. Compilation of class AImpl will fail because of anerror in line 2.
 **Explanation/Reference:**  
 AImpl is a child of A so override is sucess. Object is a parent of String so override is failed.  
 
+## Question 14
+```java
+01. interface TestA { String toString(); }
+02.
+03. public class Test {
+04.   public static void main(String[] args) {
+05.     System.out.println(new TestA() {
+06.     public String toString() { return "test"; }
+07.     });
+08.   }
+09. }
+```
+What is the result?  
+A. test  
+B. null  
+C. An exception is thrown at runtime.  
+D. Compilation fails because of an error in line 1.  
+E. Compilation fails because of an error in line 5.  
+F. Compilation fails because of an error in line 6.  
+【Answer】 A  
+**Explanation/Reference:**  
+Every class in java has toString() method in it by default, which is called by System.out.println() if you pass some object of a class to it. When you try to print object of a class, the System.out.println() method will call toString() of the class which returns the className@hashcode of that object.  
+
+
+
 
 
