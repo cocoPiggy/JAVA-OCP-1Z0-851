@@ -4,11 +4,8 @@ Given:
 class Nav{
   public enum Direction { NORTH, SOUTH, EAST, WEST }
 }
-
 public class Sprite{
-
 // insert code here
-
 }
 ```
 Which code, inserted at line 14, allows the Spriteclass to compile?  
@@ -47,7 +44,7 @@ F. MyColor purple = MyColor.BLUE + MyColor.RED;
 **Explanation/Reference:**  
 A. MyColor skyColor = MyColor.BLUE;  
 C. if(MyColor.RED.getRGB() < MyColor.BLUE.getRGB()) { }. 
-E. cannot use new to create enum.
+E. cannot use new to create enum.  
 F. cannot use operator '+'  
 
 ## Question 
