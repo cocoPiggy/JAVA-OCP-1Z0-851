@@ -123,7 +123,7 @@ E. protected int blipvert(long x) { return 0; }
 F. protected long blipvert(long x) { return 0; }  
 G. protected long blipvert(int x, int y) { return 0; }  
 【Answer】 ACEFG  
-**Reference/Explanation**  
+**Explanation/Reference:**  
 The access specifier for an overriding method can allow more, but not less, access than the overridden method. For example, a protected instance method in the superclass can be made public, but not private, in the subclass. So B is wrong.  
 The compiler does not consider return type when differentiating methods, so you cannot declare two methods with the same signature even if they have a different return type. So D is wrong.  
 
@@ -136,7 +136,7 @@ D. class Man { private Dog bestFriend; }
 E. class Man { private Dog<bestFriend>; }  
 F. class Man { private BestFriend<dog>; }  
 【Answer】 D  
-**Reference/Explanation**  
+**Explanation/Reference:**  
 If the Class has entity reference then it is called Aggregation. Aggregation is also known for "HAS - A" relationship.  
 In the above question we have "Man has a best friend " which represents container-ship or "HAS-A" relationship. Therefore bestFriend is one of the Member of Man.  
 "Who is a Dog".This part may confuses us, but in the question it is very much clear in stating that best friend is of type Dog . So Datatype is Dog and variable name is bestFriend.  
@@ -156,7 +156,7 @@ B. only the Target class
 C. any class in the test package  
 D. any class that extends Target   
 【Answer】 C  
-**Reference/Explanation**  
+**Explanation/Reference:**  
 If a class has no modifier (the default, also known as package-private), it is visible only within its own packag.  
 
 ## Question 20
@@ -165,6 +165,7 @@ Given:
 11. abstract class Vehicle { public int speed() { return 0; }
 12. class Car extends Vehicle { public int speed() { return 60; }
 13. class RaceCar extends Car { public int speed() { return 150; } ...
+
 21. RaceCar racer = new RaceCar();
 22. Car car = new RaceCar();
 23 Vehicle vehicle = new RaceCar();
@@ -176,8 +177,10 @@ B. 150, 60, 0
 C. Compilation fails.  
 D. 150, 150, 150  
 E. An exception is thrown at runtime.  
-【Answer】 D
-**Reference/Explanation**  
+【Answer】 D  
+**Explanation/Reference:**  
+
+
   
 
 
