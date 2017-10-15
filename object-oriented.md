@@ -105,7 +105,79 @@ F. Compilation fails because of an error in line 6.
 **Explanation/Reference:**  
 Every class in java has toString() method in it by default, which is called by System.out.println() if you pass some object of a class to it. When you try to print object of a class, the System.out.println() method will call toString() of the class which returns the className@hashcode of that object.  
 
+## Question 16
+```java
+01. public class Blip {
+02. protected int blipvert(int x) { return 0; }
+03. }
+04. class Vert extends Blip {
+05. // insert code here
+06. }
+```
+Which five methods, inserted independently at line 5, will compile? (Choose five.)  
+A. public int blipvert(int x) { return 0; }  
+B. private int blipvert(int x) { return 0; }  
+C. private int blipvert(long x) { return 0; }  
+D. protected long blipvert(int x) { return 0; }  
+E. protected int blipvert(long x) { return 0; }  
+F. protected long blipvert(long x) { return 0; }  
+G. protected long blipvert(int x, int y) { return 0; }  
+【Answer】 ACEFG  
+**Reference/Explanation**  
+The access specifier for an overriding method can allow more, but not less, access than the overridden method. For example, a protected instance method in the superclass can be made public, but not private, in the subclass. So B is wrong.  
+The compiler does not consider return type when differentiating methods, so you cannot declare two methods with the same signature even if they have a different return type. So D is wrong.  
 
+## Question 18
+Which Man class properly represents the relationship "Man has a best friend who is a Dog"?  
+A. class Man extends Dog { }  
+B. class Man implements Dog { }  
+C. class Man { private BestFriend dog; }  
+D. class Man { private Dog bestFriend; }  
+E. class Man { private Dog<bestFriend>; }  
+F. class Man { private BestFriend<dog>; }  
+【Answer】 D  
+**Reference/Explanation**  
+If the Class has entity reference then it is called Aggregation. Aggregation is also known for "HAS - A" relationship.  
+In the above question we have "Man has a best friend " which represents container-ship or "HAS-A" relationship. Therefore bestFriend is one of the Member of Man.  
+"Who is a Dog".This part may confuses us, but in the question it is very much clear in stating that best friend is of type Dog . So Datatype is Dog and variable name is bestFriend.  
+Since we have Dog bestFriend as a data member of Man, therefore Man has to be a Class which has this data member which satisfies "HAS-A" relationship.  
 
+## Question 19
+Given:  
+```java
+package test;
+class Target {
+public String name = "hello";
+}
+```
+What can directly access and change the value of the variable name?  
+A. any class  
+B. only the Target class  
+C. any class in the test package  
+D. any class that extends Target   
+【Answer】 C  
+**Reference/Explanation**  
+If a class has no modifier (the default, also known as package-private), it is visible only within its own packag.  
+
+## Question 20
+Given:
+```java
+11. abstract class Vehicle { public int speed() { return 0; }
+12. class Car extends Vehicle { public int speed() { return 60; }
+13. class RaceCar extends Car { public int speed() { return 150; } ...
+21. RaceCar racer = new RaceCar();
+22. Car car = new RaceCar();
+23 Vehicle vehicle = new RaceCar();
+24 System.out.println(racer.speed() + ", " + car.speed() + ", " + vehicle.speed());
+```
+What is the result?  
+A. 0, 0, 0  
+B. 150, 60, 0  
+C. Compilation fails.  
+D. 150, 150, 150  
+E. An exception is thrown at runtime.  
+【Answer】 D
+**Reference/Explanation**  
+  
 
 
