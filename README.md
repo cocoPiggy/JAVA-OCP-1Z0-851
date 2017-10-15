@@ -13,9 +13,12 @@
 - **[class interface](object-oriented.md)** 
   - Question 6
   - Question 9
-  - Question 10
+  - Question 
 - **[constructor](constructor.md)**
+  - Question 10
+- **[varagrs](argument.md)**
   - Question 7
+
   
 1.thread: yield, wait, notify, notifyAll,  
                synchronized  
