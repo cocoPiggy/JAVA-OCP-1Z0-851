@@ -2,7 +2,8 @@
 ## Contents
 
 - **[Thread](thread.md)**
-  - [Interview cheatsheet]
+  - Question 1
+  - Question 2
 - **[Algorithm Questions]
 
 
