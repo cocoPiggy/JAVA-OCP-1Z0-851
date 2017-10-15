@@ -52,7 +52,7 @@ D. atom granite granite
 E. An exception is thrown at runtime.  
 F. atom granite atom granite  
 【Answer】 F  
-**Reference/Explanation**  
+**Reference/Explanation**  
 Java constructor is invoked at the time of object creation.  
 Inside Main Method new Mountain object is created which calls its constructor in Line 12. Inside Mountain constructor , super("granite") calls the Rocks constructor by passing granite String argument. Inside Rock constructor, implicitly calls super() Atom constructor passing no argument.  
 Therefore atom is printed first from the SOP of Atom Constructor, then comes down to Rock constructor and prints whats is stored in rocks constructor's variable (String Type) which is Granite.  
