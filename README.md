@@ -4,8 +4,16 @@
 - **[Thread](thread.md)**
   - Question 1
   - Question 2
-- **[Algorithm Questions]
-
+  - Question 3
+  - Question 4
+  - Question 5
+- **[enum](enum.md)**
+  - Question 8
+  - Question
+- **[class interface](objectoriented.md)** 
+  - Question 6
+  - Question 9
+  - Question 10
 
 1.thread: yield, wait, notify, notifyAll,  
                synchronized  
