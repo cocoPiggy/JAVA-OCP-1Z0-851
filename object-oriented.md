@@ -179,6 +179,8 @@ D. 150, 150, 150
 E. An exception is thrown at runtime.  
 【Answer】 D  
 **Explanation/Reference:**  
+Racecar().speed() override the method in Car and Vehicle.  
+
 
 
   
