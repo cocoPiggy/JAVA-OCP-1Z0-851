@@ -20,6 +20,9 @@
   - Question 16 override and overload
   - Question 18 has-a relationship
   - Question 20 class casting
+  - Question 21 class casting
+  - Question 23 class casting
+  - Question 24 class casting
 - **[constructor](constructor.md)**
   - Question 10
   - Question 13
@@ -35,7 +38,9 @@
 - **[java variable type](variable.md)** 
   - Question 15 declare a varible
   - Question 
-- **[locale](object-oriented.md)** 
-  - Question 
+- **[OO Principle](oo.md)** 
+  - Question 22
 - **[exception](exception.md)** 
   - Question 
+- **[dateFormat](dateFormat.md)** 
+  - Question 25
