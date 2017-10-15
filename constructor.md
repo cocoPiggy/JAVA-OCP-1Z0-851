@@ -54,6 +54,11 @@ F. atom granite atom granite
 【Answer】 F  
 **Reference/Explanation**  
 Java constructor is invoked at the time of object creation.  
+Inside Main Method new Mountain object is created which calls its constructor in Line 12. Inside Mountain constructor , super("granite") calls the Rocks constructor by passing granite String argument. Inside Rock constructor, implicitly calls super() Atom constructor passing no argument.  
+Therefore atom is printed first from the SOP of Atom Constructor, then comes down to Rock constructor and prints whats is stored in rocks constructor's variable (String Type) which is Granite.  
+Comes down and now a new Rock object gets created by calling constructor of Rock passing "granite" String argument and gets accepted in String type= "granite". Inside Rock constructor ,implicitly calls ( super() ) Atom constructor passing no argument.  
+Therefore atom is printed again, then comes down to Rock constructor and prints whats is stored in type a String variable which is Granite.  
+Comes down to mountain method and comes back to main method and program terminates printing the result Atom Granite Atom Granite.  
 
 ## Question 17
 Given:
