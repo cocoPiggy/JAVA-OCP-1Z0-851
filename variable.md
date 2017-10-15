@@ -21,6 +21,6 @@ B. Compilation fails.
 C. A ParseException is thrown by the parse method at runtime.  
 D. A NumberFormatException is thrown by the parse method at runtime.  
 Answer: B  
-**Explanation/Reference:**  
+**Reference/Explanation**  
 f cannot be resolved  
 
