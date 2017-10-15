@@ -27,3 +27,29 @@ D. Compilation fails because of an error in line 18.
 The constructor of Employee must call its super constructor, the constructor of Person.  
 public Employee(String id) { super(id); empID = id; } }  
 
+## Question 13
+Given:
+```java
+class Atom {
+  Atom() {System.out.print("atom "); }
+}
+class Rock extends Atom {
+  Rock(Stringtype) { System.out.print(type); }
+}
+public class Mountain extends Rock {
+  Mountain(){
+    super("granite");
+    new Rock("granite ");
+  }
+  public static void main(String[] a) { new Mountain(); }
+}
+```
+What is the result?  
+A. Compilation fails.  
+B. atom granite  
+C. granite granite  
+D. atom granite granite  
+E. An exception is thrown at runtime.  
+F. atom granite atom granite  
+**Reference/Explanation**  
+Java constructor is invoked at the time of object creation.  
