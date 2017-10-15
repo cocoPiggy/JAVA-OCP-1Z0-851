@@ -19,8 +19,7 @@
   - Question 14 toString
   - Question 16 override and overload
   - Question 18 
-  - Question 19
-  - Question 20
+  - Question 20 class casting
 - **[constructor](constructor.md)**
   - Question 10
   - Question 13
@@ -28,8 +27,8 @@
 - **[varagrs](argument.md)**
   - Question 7
   - Question 
-- **[public protected private](object-oriented.md)** 
- - Question 
+- **[public protected private](modifier.md)** 
+ - Question 19 default package access modifier
  - Question 
 - **[locale](locale.md)** 
  - Question 
