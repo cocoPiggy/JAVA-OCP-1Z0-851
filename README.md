@@ -10,11 +10,13 @@
 - **[enum](enum.md)**
   - Question 8
   - Question
-- **[class interface](objectoriented.md)** 
+- **[class interface](object-oriented.md)** 
   - Question 6
   - Question 9
   - Question 10
-
+- **[constructor](constructor.md)**
+  - Question 7
+  
 1.thread: yield, wait, notify, notifyAll,  
                synchronized  
                start  
