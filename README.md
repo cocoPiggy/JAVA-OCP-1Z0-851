@@ -2,11 +2,11 @@
 ## Contents
 
 - **[Thread](thread.md)**
-  - Question 1
-  - Question 2
-  - Question 3
-  - Question 4
-  - Question 5 thread.start()
+  - Question 1 thread.start()
+  - Question 2 deadlock
+  - Question 3 sychronized
+  - Question 4 sychronized
+  - Question 5 twice thread.start()
   - Question 
 - **[enum](enum.md)**
   - Question 8
@@ -18,7 +18,7 @@
   - Question 9 override 
   - Question 14 toString
   - Question 16 override and overload
-  - Question 18 
+  - Question 18 has-a relationship
   - Question 20 class casting
 - **[constructor](constructor.md)**
   - Question 10
