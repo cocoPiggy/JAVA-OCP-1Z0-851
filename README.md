@@ -17,7 +17,7 @@
   - Question 6 class
   - Question 9 override 
   - Question 14 toString
-  - Question 16 override and overload
+  - Question 16 override and overload
   - Question 18 has-a relationship
   - Question 20 class casting
 - **[constructor](constructor.md)**
