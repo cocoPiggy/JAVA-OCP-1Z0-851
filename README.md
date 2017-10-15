@@ -28,14 +28,14 @@
   - Question 7
   - Question 
 - **[public protected private](modifier.md)** 
- - Question 19 default package access modifier
- - Question 
+  - Question 19 default package access modifier
+  - Question 
 - **[locale](locale.md)** 
- - Question 
+  - Question 
 - **[java variable type](variable.md)** 
- - Question 15 declare a varible
- - Question 
+  - Question 15 declare a varible
+  - Question 
 - **[locale](object-oriented.md)** 
- - Question 
+  - Question 
 - **[exception](exception.md)** 
- - Question 
+  - Question 
