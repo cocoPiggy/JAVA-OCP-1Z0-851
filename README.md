@@ -7,26 +7,36 @@
   - Question 3
   - Question 4
   - Question 5 thread.start()
+  - Question 
 - **[enum](enum.md)**
   - Question 8
   - Question 11
   - Question 12
+  - Question 
 - **[class interface](object-oriented.md)** 
   - Question 6 class
   - Question 9 override 
   - Question 14 toString
+  - Question 16 override and overload
+  - Question 18 
+  - Question 19
+  - Question 20
 - **[constructor](constructor.md)**
   - Question 10
   - Question 13
+  - Question 17
 - **[varagrs](argument.md)**
   - Question 7
+  - Question 
 - **[public protected private](object-oriented.md)** 
  - Question 
-- **[locale](object-oriented.md)** 
+ - Question 
+- **[locale](locale.md)** 
  - Question 
 - **[java variable type](variable.md)** 
  - Question 15 declare a varible
+ - Question 
 - **[locale](object-oriented.md)** 
  - Question 
-- **[exception](object-oriented.md)** 
+- **[exception](exception.md)** 
  - Question 
