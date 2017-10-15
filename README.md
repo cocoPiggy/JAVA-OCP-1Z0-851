@@ -20,9 +20,9 @@
   - Question 16 override and overload
   - Question 18 has-a relationship
   - Question 20 class casting
-  - Question 21 class casting
-  - Question 23 class casting
-  - Question 24 class casting
+  - Question 21 
+  - Question 23 
+  - Question 24 
 - **[constructor](constructor.md)**
   - Question 10
   - Question 13
