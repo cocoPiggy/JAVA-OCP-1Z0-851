@@ -142,23 +142,6 @@ In the above question we have "Man has a best friend " which represents containe
 "Who is a Dog".This part may confuses us, but in the question it is very much clear in stating that best friend is of type Dog . So Datatype is Dog and variable name is bestFriend.  
 Since we have Dog bestFriend as a data member of Man, therefore Man has to be a Class which has this data member which satisfies "HAS-A" relationship.  
 
-## Question 19
-Given:  
-```java
-package test;
-class Target {
-public String name = "hello";
-}
-```
-What can directly access and change the value of the variable name?  
-A. any class  
-B. only the Target class  
-C. any class in the test package  
-D. any class that extends Target   
-【Answer】 C  
-**Explanation/Reference:**  
-If a class has no modifier (the default, also known as package-private), it is visible only within its own packag.  
-
 ## Question 20
 Given:
 ```java
