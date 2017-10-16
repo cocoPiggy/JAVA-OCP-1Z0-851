@@ -163,9 +163,83 @@ E. An exception is thrown at runtime.
 【Answer】 D  
 **Explanation/Reference:**  
 Racecar().speed() override the method in Car and Vehicle.  
+## Question 21
+Given:
+```java
+05. class Building { }
+06. public class Barn extends Building {
+07.   public static void main(String[] args) {
+08.     Building build1 = new Building();
+09.     Barn barn1 = new Barn();
+10.     Barn barn2 = (Barn) build1;
+11.     Object obj1 = (Object) build1;
+12.     String str1 = (String) build1;
+13.     Building build2 = (Building) barn1;
+14.   }
+15. }
+```
+Which is true?  
+A. If line 10 is removed, the compilation succeeds.  
+B. If line 11 is removed, the compilation succeeds.  
+C. If line 12 is removed, the compilation succeeds.  
+D. If line 13 is removed, the compilation succeeds.  
+E. More than one line must be removed for compilation to succeed.  
+【Answer】C  
+**Explanation/Reference:**  
+Cannot cast from Building to String
 
-
-
+## Question 23
+Given:
+```java
+21. class Money {
+22.   private String country = "Canada";
+23.   public String getC() { return country; }
+24. }
+25. class Yen extends Money {
+26.   public String getC() { return super.country; }
+27. }
+28. public class Euro extends Money {
+29.   public String getC(int x) { return super.getC(); }
+30.   public static void main(String[] args) {
+31.     System.out.print(new Yen().getC() + " " + new Euro().getC());
+32.   }
+33. }
+```
+What is the result?  
+A. Canada  
+B. null Canada  
+C. Canada null  
+D. Canada Canada  
+E. Compilation fails due to an error on line 26.  
+F. Compilation fails due to an error on line 29.  
+【Answer】E  
+**Explanation/Reference:**  
+The field Money.country is not visible  
+## Question 24
+Assuming that the serializeBanana() and the deserializeBanana() methods will correctly use Java serialization and given:  
+```java
+13. import java.io.*;
+14. class Food implements Serializable {int good = 3;}
+15. class Fruit extends Food {int juice = 5;}
+16. public class Banana extends Fruit {
+17.   int yellow = 4;
+18.   public static void main(String [] args) {
+19.     Banana b = new Banana(); Banana b2 = new Banana();
+20.     b.serializeBanana(b); // assume correct serialization
+21.     b2 = b.deserializeBanana(); // assume correct
+22.     System.out.println("restore "+b2.yellow+ b2.juice+b2.good);
+24.   }
+25.   // more Banana methods go here
+50. }
+```
+What is the result?  
+A. restore 400  
+B. restore 403  
+C. restore 453  
+D. Compilation fails.  
+E. An exception is thrown at runtime.  
+【Answer】  
+**Explanation/Reference:**  
   
 
 
