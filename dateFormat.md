@@ -18,10 +18,10 @@ d = df.getDate(ds);
 **Reference/Explanation**  
 A. Cannot complie 'Unhandled exception type ParseException'  
 ```java
-	Date d = new Date(0L);
-  String ds = "December 15, 2004";
-	DateFormat df = DateFormat.getDateInstance();
-	try {
-			d = df.parse(ds);
-		} catch(ParseException e) { };
+Date d = new Date(0L);
+String ds = "December 15, 2004";
+DateFormat df = DateFormat.getDateInstance();
+try {
+  d = df.parse(ds);
+} catch(ParseException e) { };
 ```
