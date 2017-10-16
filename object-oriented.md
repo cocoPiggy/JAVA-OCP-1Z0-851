@@ -186,7 +186,7 @@ D. If line 13 is removed, the compilation succeeds.
 E. More than one line must be removed for compilation to succeed.  
 【Answer】C  
 **Explanation/Reference:**  
-Cannot cast from Building to String
+Cannot cast from Building to String.
 
 ## Question 23
 Given:
@@ -214,7 +214,7 @@ E. Compilation fails due to an error on line 26.
 F. Compilation fails due to an error on line 29.  
 【Answer】E  
 **Explanation/Reference:**  
-The field Money.country is not visible  
+The field Money.country is not visible.  
 ## Question 24
 Assuming that the serializeBanana() and the deserializeBanana() methods will correctly use Java serialization and given:  
 ```java
@@ -240,6 +240,7 @@ D. Compilation fails.
 E. An exception is thrown at runtime.  
 【Answer】  
 **Explanation/Reference:**  
-  
+b2 is euqal to b after serailize and deserialize.  
+
 
 
