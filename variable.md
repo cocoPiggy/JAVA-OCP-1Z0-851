@@ -20,7 +20,7 @@ A. 0.0
 B. Compilation fails.  
 C. A ParseException is thrown by the parse method at runtime.  
 D. A NumberFormatException is thrown by the parse method at runtime.  
-Answer: B  
+【Answer】 B  
 **Reference/Explanation**  
 f cannot be resolved  
 
@@ -37,7 +37,7 @@ A. b = nf.parse( input );
 B. b = nf.format( input );  
 C. b = nf.equals( input );  
 D. b = nf.parseObject( input );  
-Answer: B  
+【Answer】 B  
 **Reference/Explanation**  
 To format a number for the current Locale, use one of the factory class methods:  
 ```java  
@@ -45,7 +45,7 @@ To format a number for the current Locale, use one of the factory class methods:
 ```
 You can also use a NumberFormat to parse numbers:  
 ```java
-myNumber = nf.parse(myString);
+  myNumber = nf.parse(myString);
 ```
 ## Question 27
 Given:  
@@ -65,6 +65,6 @@ C. 462
 D. 42042  
 E. Compilation fails.  
 F. An exception is thrown at runtime   
-Answer: D  
+【Answer】 D  
 **Reference/Explanation**  
 The Java language provides special support for the string concatenation operator ( + ), and for conversion of other objects to strings.  
