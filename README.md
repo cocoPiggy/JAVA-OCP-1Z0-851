@@ -37,10 +37,14 @@
   - Question 
 - **[java variable type](variable.md)** 
   - Question 15 declare a varible
-  - Question 
+  - Question 26 NumberFormat
+  - Question 27 String concat
 - **[OO Principle](oo.md)** 
   - Question 22
 - **[exception](exception.md)** 
-  - Question 
+  - Question 30
 - **[dateFormat](dateFormat.md)** 
   - Question 25
+- **[IO](io.md)** 
+  - Question 28
+  - Question 29
