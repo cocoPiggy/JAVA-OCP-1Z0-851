@@ -23,6 +23,7 @@
   - Question 21 
   - Question 23 
   - Question 24 
+  - Question 33 
 - **[constructor](constructor.md)**
   - Question 10
   - Question 13
@@ -39,8 +40,11 @@
   - Question 15 declare a varible
   - Question 26 NumberFormat
   - Question 27 String concat
+  - Question 35 String append concat
 - **[OO Principle](oo.md)** 
   - Question 22
+  - Question 32
+  - Question 34
 - **[exception](exception.md)** 
   - Question 30
 - **[dateFormat](dateFormat.md)** 
