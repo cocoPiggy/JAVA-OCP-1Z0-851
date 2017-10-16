@@ -6,6 +6,6 @@ C. Lower cohesion
 D. Higher cohesion  
 E. Weaker encapsulation  
 F. Stronger encapsulation  
- Answer AD  
+【Answer】 AD  
 
 
