@@ -20,6 +20,6 @@ B. Compilation fails.
 C. test runtime end  
 D. test exception end  
 E. A Throwable is thrown by main at runtime.  
-Answer: D
-**Reference/Explanation**  
+【Answer】 D   
+**Reference/Explanation**  
 
