@@ -52,3 +52,6 @@
 - **[IO](iostream.md)** 
   - Question 28
   - Question 29
+- **[Others](others.md)**
+  - Question 31 compareTo
+  - Question 35 append, concat
