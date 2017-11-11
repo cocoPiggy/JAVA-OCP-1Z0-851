@@ -24,6 +24,7 @@
   - Question 23 
   - Question 24 
   - Question 33 
+  - Question 39 
 - **[constructor](constructor.md)**
   - Question 10
   - Question 13
@@ -41,6 +42,7 @@
   - Question 26 NumberFormat
   - Question 27 String concat
   - Question 35 String append concat
+  - Question 37 
 - **[OO Principle](oo.md)** 
   - Question 22
   - Question 32
@@ -54,4 +56,7 @@
   - Question 29
 - **[Others](others.md)**
   - Question 31 compareTo
-  - Question 35 append, concat
+  - Question 38 
+  - Question 40 break
+- **[serialize](serialize.md)** 
+  - Question 36
