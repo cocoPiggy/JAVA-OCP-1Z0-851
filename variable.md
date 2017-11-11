@@ -68,3 +68,43 @@ F. An exception is thrown at runtime
 【Answer】 D  
 **Reference/Explanation**  
 The Java language provides special support for the string concatenation operator ( + ), and for conversion of other objects to strings.  
+
+## Question 35
+Given:  
+```java
+22. StringBuilder sb1 = new StringBuilder("123");
+23. String s1 = "123";
+24. // insert code here
+25. System.out.println(sb1 + " " + s1);
+```
+Which code fragment, inserted at line 24, outputs "123abc 123abc"?  
+A. sb1.append("abc"); s1.append("abc");  
+B. sb1.append("abc"); s1.concat("abc");  
+C. sb1.concat("abc"); s1.append("abc");  
+D. sb1.concat("abc"); s1.concat("abc");  
+E. sb1.append("abc"); s1 = s1.concat("abc");  
+F. sb1.concat("abc"); s1 = s1.concat("abc");  
+G. sb1.append("abc"); s1 = s1 + s1.concat("abc"); H. sb1.concat("abc"); s1 = s1 + s1.concat("abc");  
+【Answer】 E  
+**Reference/Explanation**  T 
+
+## Question 37
+Given:  
+```java
+01. public class LineUp {
+02.   public static void main(String[] args) {
+03.     double d = 12.345;
+04.     // insert code here
+05.   }
+06. }
+```
+Which code fragment, inserted at line 4, produces the output | 12.345|?  
+A. System.out.printf("|%7d| \n", d);  
+B. System.out.printf("|%7f| \n", d);  
+C. System.out.printf("|%3.7d| \n", d);  
+D. System.out.printf("|%3.7f| \n", d);  
+E. System.out.printf("|%7.3d| \n", d);  
+F. System.out.printf("|%7.3f| \n", d);  
+【Answer】 F  
+**Reference/Explanation**  
+
