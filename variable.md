@@ -84,9 +84,10 @@ C. sb1.concat("abc"); s1.append("abc");
 D. sb1.concat("abc"); s1.concat("abc");  
 E. sb1.append("abc"); s1 = s1.concat("abc");  
 F. sb1.concat("abc"); s1 = s1.concat("abc");  
-G. sb1.append("abc"); s1 = s1 + s1.concat("abc"); H. sb1.concat("abc"); s1 = s1 + s1.concat("abc");  
+G. sb1.append("abc"); s1 = s1 + s1.concat("abc");  
+H. sb1.concat("abc"); s1 = s1 + s1.concat("abc");  
 【Answer】 E  
-**Reference/Explanation**  T 
+**Reference/Explanation**  
 
 ## Question 37
 Given:  
