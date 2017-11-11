@@ -242,5 +242,55 @@ E. An exception is thrown at runtime.
 **Explanation/Reference:**  
 b2 is euqal to b after serailize and deserialize.  
 
+## Question 33
+Given:  
+```java
+10. public class SuperCalc {
+11.   protected static int multiply(int a, int b) { return a * b;}
+12. }
+and:
+20.public class SubCalc extends SuperCalc{
+21.  public static int multiply(int a, int b) {
+22.    int c = super.multiply(a, b);
+23.    return c; 
+24.   }
+25. }
+and:
+30. SubCalc sc = new SubCalc ();
+31. System.out.println(sc.multiply(3,4));
+32. System.out.println(SubCalc.multiply(2,2));
+```
+What is the result?
+A. 12
+B. The code runs with no output.
+C. An exception is thrown at runtime.
+D. Compilation fails because of an error in line 21.
+E. Compilation fails because of an error in line 22.
+F. Compilation fails because of an error in line 31.
+【Answer】 E  
+**Reference/Explanation**  
+Cannot use super in a static context  
 
+## Question 39
+Given:  
+```java
+10. interface Foo {}
+11. class Alpha implements Foo {} 
+12. class Beta extends Alpha {} 
+13. class Delta extends Beta {
+14.   public static void main( String[] args ) { 
+15.     Beta x = new Beta();
+16.     //insert code here
+17.   }
+18. }
+```
+Which code, inserted at line 16, will cause a java.lang.ClassCastException?  
+A. Alpha a = x;  
+B. Foo f = (Delta)x;  
+C. Foo f = (Alpha)x;  
+D. Beta b = (Beta)(Alpha)x;   
+E. Compilation fails.  
+【Answer】 B   
+**Reference/Explanation**  
+ 
 
