@@ -260,13 +260,13 @@ and:
 31. System.out.println(sc.multiply(3,4));
 32. System.out.println(SubCalc.multiply(2,2));
 ```
-What is the result?
-A. 12
-B. The code runs with no output.
-C. An exception is thrown at runtime.
-D. Compilation fails because of an error in line 21.
-E. Compilation fails because of an error in line 22.
-F. Compilation fails because of an error in line 31.
+What is the result?  
+A. 12  
+B. The code runs with no output.  
+C. An exception is thrown at runtime.  
+D. Compilation fails because of an error in line 21.  
+E. Compilation fails because of an error in line 22.  
+F. Compilation fails because of an error in line 31.  
 【Answer】 E  
 **Reference/Explanation**  
 Cannot use super in a static context  
@@ -288,7 +288,7 @@ Which code, inserted at line 16, will cause a java.lang.ClassCastException?
 A. Alpha a = x;  
 B. Foo f = (Delta)x;  
 C. Foo f = (Alpha)x;  
-D. Beta b = (Beta)(Alpha)x;   
+D. Beta b = (Beta)(Alpha)x;    
 E. Compilation fails.  
 【Answer】 B   
 **Reference/Explanation**  
